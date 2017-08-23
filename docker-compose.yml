@@ -1,5 +1,5 @@
 base:
-  image: 10.100.198.200:5000/books-ms
+  image: cd:5000/books-ms
   ports:
     - 8080
   environment:

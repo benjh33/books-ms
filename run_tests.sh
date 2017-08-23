@@ -4,6 +4,7 @@ set -e
 
 if [ "$TEST_TYPE" = "integ" ]
 then
+  echo "$TEST_TYPE"
   sbt "testOnly *Integ"
 elif [ "$TEST_TYPE" = "watch-front" ]
 then
